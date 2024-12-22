@@ -24,6 +24,6 @@ return [
 
 
     (new Extend\Settings())
-        ->serializeToForum('sch246-awesome-like.like', 'sch246-awesome-like.like', 'strval')
-        ->serializeToForum('sch246-awesome-like.reply', 'sch246-awesome-like.reply', 'strval')
+        ->serializeToForum('sch246-awesome-like-like', 'sch246-awesome-like.like')
+        ->serializeToForum('sch246-awesome-like-reply', 'sch246-awesome-like.reply')
 ];
