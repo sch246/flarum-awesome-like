@@ -1,0 +1,40 @@
+
+// 通用样式
+.Button[icon=on]:before,
+.Button[icon=only]:before {
+    font-family: 'Font Awesome 6 Free';
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.Button[icon=only] .Button-label {
+    display:none;
+}
+
+// 回复按钮带图标
+.item-reply {
+    .Button[icon=on]:before,
+    .Button[icon=only]:before {
+        font-weight: 600;
+        content: '\f3e5';
+    }
+    .Button[icon=only]:before {
+        margin-right: 0;
+    }
+}
+
+// 点赞按钮带图标
+.item-like {
+    .Button[icon=on],
+    .Button[icon=only] {
+        &:before {
+            font-weight: 400;
+            content: '\f164';
+        }
+
+        &.active:before {
+            font-weight: 600;
+            vertical-align: -1px;
+        }
+    }
+}

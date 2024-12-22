@@ -1,0 +1,12 @@
+sch246-awesome-like:
+  # For more details on the format
+  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
+  admin:
+    like_label: 点赞图标
+    reply_label: 回复图标
+    off: 禁用
+    on: 启用
+    only: 仅图标
+
+
+  forum:

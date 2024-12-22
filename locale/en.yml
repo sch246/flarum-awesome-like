@@ -1,0 +1,12 @@
+sch246-awesome-like:
+  # For more details on the format
+  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
+  admin:
+    like_label: indicates the like icon
+    reply_label: indicates the reply icon
+    off: disable
+    on: enable
+    only: only the icon
+
+
+  forum:
